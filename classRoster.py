@@ -20,10 +20,16 @@ with open("class_rosters.json", "r") as rosterFile:
 
 ## Iterate collection
 for classes in classesCollection['classes']:
+    print("==============================")
     print(classes['className'],"students:")
+    print("==============================")
+    
     for student in classes['students']:
         print("First Name: " + student['firstName'])
         print("Last Name: " + student['lastName'])
         print("Age: " + student['age'])
         print("Gender: " + student['gender'])
         print("-------------------")
+
+    ## Create spacing before next class
+    print("\n")

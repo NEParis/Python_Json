@@ -16,6 +16,23 @@
                     "lastName": "Johnson"
                 }
             ]
+        },
+        {
+            "className": "History of Jazz",
+            "students": [
+                {
+                    "age": "36",
+                    "firstName": "Elwood",
+                    "gender": "male",
+                    "lastName": "Blues"
+                },
+                {
+                    "age": "40",
+                    "firstName": "Jake",
+                    "gender": "male",
+                    "lastName": "Blues"
+                }
+            ]
         }
     ]
 }

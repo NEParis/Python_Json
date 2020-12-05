@@ -1,1 +1,16 @@
-{"people": [{"firstName": "Jim", "lastName": "Smith", "gender": "male", "age": "41"}, {"firstName": "Mary", "lastName": "Johnson", "gender": "female", "age": "34"}]}
+{
+    "people": [
+        {
+            "age": "41",
+            "firstName": "Jim",
+            "gender": "male",
+            "lastName": "Smith"
+        },
+        {
+            "age": "34",
+            "firstName": "Mary",
+            "gender": "female",
+            "lastName": "Johnson"
+        }
+    ]
+}

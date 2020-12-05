@@ -11,4 +11,4 @@ data = {
 
 #Write data to file
 with open("people.json", "w") as peopleFile:
-    json.dump(data, peopleFile)
+    json.dump(data, peopleFile, indent = 4, sort_keys = True, separators = ("," , ": " ))

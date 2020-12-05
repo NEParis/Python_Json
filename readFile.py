@@ -1,7 +1,14 @@
 import json
 
-#read data from file
+## Initialize
+peopleCollection = {}
+
+
+## Read data from file
 with open("people.json", "r") as peopleFile:
     peopleCollection = json.load(peopleFile)
+    # print(peopleCollection)
 
-    print(peopleCollection)
+
+## Act
+print(peopleCollection)

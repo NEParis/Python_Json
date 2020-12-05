@@ -1,0 +1,21 @@
+{
+    "classes": [
+        {
+            "className": "Science",
+            "students": [
+                {
+                    "age": "41",
+                    "firstName": "Jim",
+                    "gender": "male",
+                    "lastName": "Smith"
+                },
+                {
+                    "age": "34",
+                    "firstName": "Mary",
+                    "gender": "female",
+                    "lastName": "Johnson"
+                }
+            ]
+        }
+    ]
+}
